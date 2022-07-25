@@ -36,13 +36,21 @@ select name from Users;
 
 #
 ## WHERE (조건문)
-: 특정 테이블에서 **'어떤'**  
+: 데이터를 특정할 때 사용하는 식
+- `=` : 같다
+- `>` : 보다 큰
+- `<` : 보다 작은
+- `>=` : 보다 크거나 같은
+- `<=` : 보다 작거나 같은
+- `<>` : 같지 않은
+- `between a and b` : a 와 b 사이의 값 (a 이상 b 이하)
+- `in` : `or` 과 비슷, 한번에 여러개의 값 확인하고 싶을 때
 ```sql
 select * from Users where name = 'jsoh';
 ```
--> `Users` 라는 테이블에서 `name`이 jsoh인 값만 조회하겠다.  
+-> `Users` 라는 테이블에서 `name`이 `jsoh`인 값만 조회하겠다.  
 
 ```sql
 select * from Users where age > 29;
 ```
--> `Users` 라는 테이블에서 `age`가 30이상인 값만 조회하겠다.  
+-> `Users` 라는 테이블에서 `age`가 `30이상`인 값만 조회하겠다.  
