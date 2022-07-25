@@ -19,4 +19,30 @@
 - DELETE : Database에서 데이터 **삭제**
 
 #
-##
+## SELECT
+: 특정 데이터 추출(조회)  
+-> `SELECT {특정 컬럼} FROM {특정 테이블};`  
+  
+```sql
+select * from Users;
+```
+-> `Users` 라는 테이블에서 모든 컬럼을 조회하겠다.  
+  
+```sql
+select name from Users;
+```
+-> `Users` 라는 테이블에서 `name` 컬럼을 조회하겠다.  
+  
+
+#
+## WHERE (조건문)
+: 특정 테이블에서 **'어떤'**  
+```sql
+select * from Users where name = 'jsoh';
+```
+-> `Users` 라는 테이블에서 `name`이 jsoh인 값만 조회하겠다.  
+
+```sql
+select * from Users where age > 29;
+```
+-> `Users` 라는 테이블에서 `age`가 30이상인 값만 조회하겠다.  
