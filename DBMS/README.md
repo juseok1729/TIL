@@ -1,12 +1,9 @@
-# DBMS
-## Key-value
-- [DynamoDB]()
+### SQL
+- [MySQL]() : RDBMS
 
-## Time-series
+### NoSQL
+- [DynamoDB]() : Key-value
+- [MongoDB]() : Document
+
+### Time-series
 - [InfluxDB]()
-
-## Document (NoSQL)
-- [MongoDB]()
-
-## RDBMS (SQL)
-- [MySQL]()
