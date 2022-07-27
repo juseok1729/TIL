@@ -10,4 +10,7 @@ MLOps = ML + Data Engineering + Dev + **Infra(DevOps)**
 
 ### References
 [Full Stck Deep Learning](https://fullstackdeeplearning.com) : 무료강의  
+- 13주차로 구성
+- 문제정의, 베이스라인 정의, MLOps 각종 도구, 트러블 슈팅, AI Ethics, Test, Deploy에 대해서 다룸
+
 [스탠포드 CS329](https://stanford-cs329s.github.io) : 머신러닝 시스템 디자인
